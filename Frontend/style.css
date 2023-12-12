@@ -1,0 +1,39 @@
+.custom-progress-container {
+  width: 100%;
+  height: 50vh;
+}
+
+.custom-progress-bar {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.elementi-sortiranje {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+[contenteditable="true"] {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* outline: none; uklanja plavi obris u nekim pregledačima kada je element fokusiran */
+}
+
+.table input {
+  text-align: center;
+}
+
+.table {
+  text-align: center;
+}
